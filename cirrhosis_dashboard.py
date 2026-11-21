@@ -1,6 +1,8 @@
-"""Cirrhosis Outcomes EDA Dashboard
+"""Интерактивный дашборд по данным о пациентах с циррозом печени
 
-Интерактивный дашборд для анализа данных Playground Series S3E26.
+Дашборд построен на данных Multi-Class Prediction of Cirrhosis Outcomes
+(публикация Kaggle, идентификатор набора `playground-series-s3e26`;
+первоисточник — UCI Machine Learning Repository).
 
 Запуск:
     1. Убедитесь, что зависимости установлены:
@@ -35,7 +37,7 @@ from lifelines import KaplanMeierFitter
 DATA_PATH = os.path.join(os.path.dirname(__file__), 'data', 'train.csv')
 
 st.set_page_config(
-    page_title='Cirrhosis EDA',
+    page_title='Анализ данных: цирроз печени',
     layout='wide',
 )
 
@@ -57,7 +59,7 @@ def load_data(path: str) -> pd.DataFrame:
 # UI
 # ==============================================================================
 
-st.title('Cirrhosis Outcomes EDA Dashboard')
+st.title('Анализ данных о пациентах с циррозом печени')
 st.markdown(
     '**Исследовательский анализ данных Multi-Class Prediction of Cirrhosis Outcomes**\n\n'
     'Фильтруйте данные по стадиям, исходу и возрасту, чтобы исследовать взаимосвязи.\n\n'

@@ -50,6 +50,7 @@ nest-asyncio2==1.7.4
 networkx==3.7
 numba==0.62.1
 numpy==2.3.5
+optuna==5.1.0
 packaging==26.3
 pandas==2.3.3
 parso==0.8.7
