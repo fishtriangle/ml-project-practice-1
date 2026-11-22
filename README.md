@@ -150,9 +150,7 @@ ml-project-practice-1/
 │   ├── train_clean.parquet        # полный артефакт после очистки (34 столбца)
 │   └── train_model.parquet        # матрица 15 признаков модели + цель
 ├── lessons_notebooks/             # вводные примеры по Python и pandas
-│   └── lesson1.ipynb
-├── cirrhosis_dashboard.py         # интерактивный Streamlit-дашборд
-└── cirrhosis_eda_report.html      # генерируется ydata-profiling
+└── cirrhosis_dashboard.py         # интерактивный Streamlit-дашборд
 ```
 
 ---
